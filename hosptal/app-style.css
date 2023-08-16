@@ -1,0 +1,226 @@
+/* Global styles */
+body {
+          font-family: 'Roboto', sans-serif;
+          margin: 0;
+          padding: 0;
+}
+
+.container {
+          max-width: 960px;
+          margin: 0 auto;
+          padding: 24px;
+}
+
+/* Header styles */
+header {
+          background-color: #0D47A1;
+          color: #fff;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 12px;
+}
+
+header h1 {
+          font-size: 24px;
+          margin: 0;
+}
+
+header nav ul {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          display: flex;
+}
+
+header nav li {
+          margin: 0 12px;
+}
+
+header nav a {
+          color: #fff;
+          text-decoration: none;
+          font-size: 16px;
+          text-transform: uppercase;
+}
+
+/* Form styles */
+form {
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 24px;
+}
+
+label {
+          margin-bottom: 8px;
+          font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+          padding: 8px;
+          margin-bottom: 16px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          font-size: 16px;
+          width: 100%;
+          box-sizing: border-box;
+}
+
+input[type="submit"] {
+          background-color: #0D47A1;
+          color: #fff;
+          border: none;
+          padding: 8px 16px;
+          border-radius: 4px;
+          cursor: pointer;
+          font-size: 16px;
+          text-transform: uppercase;
+}
+
+input[type="submit"]:hover {
+          background-color: #1565C0;
+}
+
+/* Table styles */
+table {
+          border-collapse: collapse;
+          width: 100%;
+}
+
+th,
+td {
+          text-align: left;
+          padding: 12px;
+}
+
+th {
+          background-color: #0D47A1;
+          color: #fff;
+          font-weight: bold;
+          text-transform: uppercase;
+          border-bottom: 2px solid #ddd;
+}
+
+tr:nth-child(even) {
+          background-color: #f2f2f2;
+}
+
+tr:hover {
+          background-color: #ddd;
+}
+
+/* Button styles */
+button {
+          background-color: #0D47A1;
+          color: #fff;
+          border: none;
+          padding: 8px 16px;
+          border-radius: 4px;
+          cursor: pointer;
+          font-size: 16px;
+          text-transform: uppercase;
+}
+
+button:hover {
+          background-color: #1565C0;
+}
+
+/* Alert styles */
+.alert {
+          padding: 8px;
+          margin-bottom: 16px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+}
+
+.alert.success {
+          background-color: #DFF2BF;
+          color: #4F8A10;
+}
+
+.alert.error {
+          background-color: #F8D7DA;
+          color: #721C24;
+}
+
+select {
+          padding: 8px;
+          margin-bottom: 16px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          background-color: #fff;
+          font-size: 16px;
+          width: 100%;
+          box-sizing: border-box;
+          appearance: none;
+}
+
+select:focus {
+          outline: none;
+          border-color: #0D47A1;
+          box-shadow: 0 0 5px 0 rgba(13, 71, 161, 0.5);
+}
+
+select option {
+          padding: 8px;
+          font-size: 16px;
+}
+
+/* Table with buttons styles */
+.table-with-buttons {
+          border-collapse: collapse;
+          width: 100%;
+}
+
+.table-with-buttons th,
+.table-with-buttons td {
+          text-align: left;
+          padding: 12px;
+          border-bottom: 2px solid #ddd;
+}
+
+.table-with-buttons th {
+          background-color: #0D47A1;
+          color: #fff;
+          font-weight: bold;
+          text-transform: uppercase;
+}
+
+.table-with-buttons tr:nth-child(even) {
+          background-color: #f2f2f2;
+}
+
+.table-with-buttons tr:hover {
+          background-color: #ddd;
+}
+
+.table-with-buttons td:last-child {
+          text-align: center;
+}
+
+.table-with-buttons td:last-child button {
+          padding: 8px 12px;
+          border: none;
+          border-radius: 4px;
+          background-color: #0D47A1;
+          color: #fff;
+          cursor: pointer;
+          font-size: 16px;
+          text-transform: uppercase;
+          transition: background-color 0.2s ease-in-out;
+}
+
+.table-with-buttons td:last-child button:hover {
+          background-color: #1565C0;
+}
+
+.time-label {
+    margin-top: 10px;
+}
+
+#time {
+    margin-bottom: 10px;
+}
